@@ -18,7 +18,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 @EnableAutoConfiguration
 @SpringBootApplication
 @ComponentScan
-@MapperScan("com.hww.project.learn.hibernate.mapper")
+@MapperScan("com.hww.project.learn.springboot.mapper")
 public class Application {
     private static Logger logger = Logger.getLogger(Application.class);
  
